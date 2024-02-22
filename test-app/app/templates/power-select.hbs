@@ -1,0 +1,34 @@
+{{page-title "PowerSelect Component"}}
+
+<h1>PowerSelect</h1>
+
+<section class="test-app-section">
+  <h2>Single selection</h2>
+  <h3>Interaction</h3>
+  <p>Default - controller myAction</p>
+
+  <div class="test-app-power-select">
+    <PowerSelect
+      @options={{@model.OPTIONS}}
+      @onChange={{this.myAction}}
+      @renderInPlace={{true}}
+      as |option|
+    >
+      {{option}}
+    </PowerSelect>
+  </div>
+
+  <p>Default - controller callRouteAction</p>
+
+  <div class="test-app-power-select">
+    <PowerSelect
+      @options={{@model.OPTIONS}}
+      @onChange={{this.callRouteAction}}
+      @renderInPlace={{true}}
+      as |option|
+    >
+      {{option}}
+    </PowerSelect>
+  </div>
+
+</section>

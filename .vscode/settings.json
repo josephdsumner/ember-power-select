@@ -2,5 +2,14 @@
 	"eslint.validate": [
 		"glimmer-ts",
 		"glimmer-js"
-	]
+	],
+	"workbench.colorCustomizations": {
+		"activityBar.background": "#001188",
+		"titleBar.activeBackground": "#0016B1",
+		"titleBar.activeForeground": "#FBFBFF",
+		"panel.background": "#070707",
+		"sideBar.foreground": "#ffffff",
+		"sideBar.background": "#070707"
+	},
+	"sarif-viewer.connectToGithubCodeScanning": "off"
 }
